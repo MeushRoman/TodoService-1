@@ -1,6 +1,9 @@
-﻿namespace TodoApi.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Todo.Infrastructure.Database.Entities
 {
-    #region snippet
     public class TodoItem
     {
         public long Id { get; set; }
@@ -8,5 +11,4 @@
         public bool IsComplete { get; set; }
         public string Secret { get; set; }
     }
-    #endregion
 }
